@@ -12,9 +12,10 @@ import wandb
 from pytorch_lightning.loggers import WandbLogger
 from pytorch_lightning.callbacks.early_stopping import EarlyStopping
 
-from model import *
+from models import *
 
-pl.seed_everything(1)
+
+# pl.seed_everything(1)
 
 class AlexNetLit(pl.LightningModule):
     def __init__(self, out_dim, lr):# data_dir, batch_size):

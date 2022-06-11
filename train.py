@@ -13,6 +13,10 @@ from pytorch_lightning.loggers import WandbLogger
 from pytorch_lightning.callbacks.early_stopping import EarlyStopping
 
 from data import *
+from trainer import AlexNetLit
+
+import warnings
+warnings.filterwarnings("ignore")
 
 pl.seed_everything(1)
 

@@ -5,6 +5,7 @@ import torch.nn.functional as F
 # import torchvision.models as models
 
 from .alexnet import AlexNet
+# from .alexnet import *
 
 models = {
 	"alexnet" : AlexNet
