@@ -5,21 +5,20 @@
 <a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning 1.5+-792ee5?style=for-the-badge&logo=pytorchlightning&logoColor=white"></a>
  <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/-Python 3.7+-blue?style=for-the-badge&logo=python&logoColor=white"></a>
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/-PyTorch 1.9+-ee4c2c?style=for-the-badge&logo=pytorch&logoColor=white"></a>
- <a href="https://pytorch.org/get-started/locally/"><img alt="W & B" src="https://img.shields.io/badge/-WandB-FFBE00?style=for-the-badge&logo=&logoColor=white"></a>
-
-<!--  
-Conference   
--->   
+ <a href="https://pytorch.org/get-started/locally/"><img alt="W & B" src="https://img.shields.io/badge/-WandB-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white"></a>
 </div>
- 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-image-classification/blob/master/1_mlp.ipynb)
+
 ## Description   
-Image classification models implemented in Pytorch Lightning with Weights and Biases logging integrated to track the metrics and losses  
+This repository contains image classification models implemented in Pytorch Lightning with Weights and Biases logging integrated to track the metrics and losses.  
+
 
 ## How to run   
 First, install dependencies   
 ```bash
 # clone project   
-git clone https://github.com/YourGithubName/deep-learning-project-template
+git clone https://github.com/saiamrit/lightning-image-models.git
 
 # install project   
 cd deep-learning-project-template 
