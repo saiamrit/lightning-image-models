@@ -11,7 +11,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-image-classification/blob/master/1_mlp.ipynb)
 
 ## Description   
-This repository contains image classification models implemented in Pytorch Lightning with Weights and Biases logging integrated to track the metrics and losses.  
+This repository contains image classification models implemented in Pytorch Lightning. The logging is done with Weights and Biases, integrated to track the metrics and losses.  
 
 
 ## How to run   
