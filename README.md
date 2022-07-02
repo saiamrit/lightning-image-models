@@ -10,9 +10,20 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-image-classification/blob/master/1_mlp.ipynb)
 
-## Description   
-This repository contains image classification models implemented in Pytorch Lightning. The logging is done with Weights and Biases, integrated to track the metrics and losses.  
+This repository contains image classification models implemented in Pytorch Lightning. The logging is done with Weights and Biases, integrated to track the metrics and losses. The aim is also to present a clean templete for Pytorch Lightning projects, and present modular and structured code for projects build with Pytorch lightning.
 
+## Requirements
+```
+ opencv=4.1.2
+ pytorch=1.9.1
+ torchvision=0.10.1
+ pytorch-lightning=1.5.10
+ scikit-image=0.15.0
+ wandb
+```
+## Running the Project
+
+## Models
 
 ## How to run   
 First, install dependencies   
