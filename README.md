@@ -21,9 +21,27 @@ This repository contains image classification models implemented in Pytorch Ligh
  scikit-image=0.15.0
  wandb
 ```
-## Running the Project
 
 ## Models
+
+- **AlexNet**
+## Setting up the Project
+
+The project was built in a conda environment. So it is recommended but not necessary to have anaconda/miniconda installed. The ```environment.yml``` has the necessary environment packages.
+
+Clone the repository to your local using,
+```bash
+git clone https://github.com/saiamrit/lightning-image-models.git
+cd lightning-image-models
+```
+Then setup the conda environment using,
+```bash
+conda env create -f environment.yml
+```
+## Running
+
+Once the environment is created, activate the environment and run the ```traintest.p```
+
 
 ## How to run   
 First, install dependencies   
